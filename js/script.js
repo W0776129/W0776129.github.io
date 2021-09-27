@@ -5,7 +5,10 @@
 
 $('#vprospect').click(function(){
   $("#solution").load("prospect.html");
-  $("#solution").animate({height: "300px"});
+  $("#solution").animate({left: '250px',
+      opacity: '0.5',
+      height: '150px',
+      width: '150px'});
 });
 
 $( "#vconvert" ).click(function() {
