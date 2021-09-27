@@ -5,7 +5,9 @@
 
 $('#vprospect').click(function(){
   $("#solution").load("prospect.html");
-  $("#solution").animate({left: '100px'}, "slow");
+  $("#solution").animate({ border:" 5px ";
+  background-color: "lightblue";
+  text-align: "center";});
 });
 
 $( "#vconvert" ).click(function() {
