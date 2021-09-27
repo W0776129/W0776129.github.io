@@ -5,22 +5,17 @@
 
 $('#vprospect').click(function(){
   $("#solution").load("prospect.html");
-  $("#solution").animate({ border: 5px outset red;
-  background-color: lightblue;
-  text-align: center;});
+
 });
 
 $( "#vconvert" ).click(function() {
   $("#solution").load("convert.html");
-  $("#solution").animate({ border: 5px outset red;
-  background-color: lightblue;
-  text-align: center;});
 });
 
 $( "#vretain" ).click(function() {
   $("#solution").load("retain.html");
-  $("#solution").animate({ border: 5px outset red;
-  background-color: lightblue;
-  text-align: center;});
 });
 
+$("#solution").animate({ border: "5px outset red";
+  background-color: "lightblue";
+  text-align: "center";});
